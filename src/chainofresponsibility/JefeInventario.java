@@ -9,7 +9,6 @@ package chainofresponsibility;
  * @author ronal
  */
 public class JefeInventario extends Trabajador{
-    private AprobadorCambio next;
     
     public void setNext(AprobadorCambio a){
         }
