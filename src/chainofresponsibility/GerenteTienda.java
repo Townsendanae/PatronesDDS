@@ -11,6 +11,9 @@ package chainofresponsibility;
 public class GerenteTienda extends Trabajador{
     private AprobadorCambio next;
     
+    public void setNext(AprobadorCambio a){
+        }
+    
     public boolean aprobarCambio(Articulo a, Fallo f){
         return false;
         }
