@@ -9,6 +9,20 @@ package Iterator;
  *
  * @author Danaé
  */
-public class Bodega {
+public class Bodega implements Almacen {
+    @Override
+    public ProductoIterador crearIteradorProductosDisponibles() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public ProductoIterador crearIteradorProductosEnReparacion() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public ProductoIterador crearIteradorProductosConFallos() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
