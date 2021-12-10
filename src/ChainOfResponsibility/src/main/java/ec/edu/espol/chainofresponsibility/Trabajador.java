@@ -8,14 +8,16 @@ package ec.edu.espol.chainofresponsibility;
  *
  * @author ronal
  */
-public class Trabajador implements AprobadorCambio{
-    private AprobarCambio next;
+public abstract class Trabajador implements AprobadorCambio{
+    private AprobadorCambio next;
     
     @Override
     public void setNext(AprobadorCambio a){
+        next = a;
         }
     
     public boolean aprobarCambio(Articulo a, Fallo f){
-        return false;
+        if(next != null) return next.aprobarCambio(a, f);
+        return true;
         }
 }

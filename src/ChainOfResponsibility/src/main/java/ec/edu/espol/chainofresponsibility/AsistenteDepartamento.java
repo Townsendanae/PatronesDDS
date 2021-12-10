@@ -9,10 +9,7 @@ package ec.edu.espol.chainofresponsibility;
  * @author ronal
  */
 public class AsistenteDepartamento extends Trabajador{
-    private AprobarCambio next;
-    
-    public void setNext(AprobadorCambio a){
-        }
+    private AprobadorCambio next;
     
     public boolean aprobarCambio(Articulo a, Fallo f){
         return false;
