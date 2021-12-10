@@ -9,5 +9,8 @@ package chainofresponsibility;
  * @author ronal
  */
 public class Articulo {
-    
+    private double precio;
+    private int cantidad_stock;
+    private LocalDate limite_garantia;
+    private List<Fallo> fallos_admitidos;
 }
