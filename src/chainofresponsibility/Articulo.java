@@ -2,19 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ec.edu.espol.chainofresponsibility;
+package chainofresponsibility;
 
 /**
  *
  * @author ronal
  */
-public class AsistenteDepartamento extends Trabajador{
-    private AprobadorCambio next;
+public class Articulo {
     
-    public boolean aprobarCambio(Articulo a, Fallo f){
-        return false;
-        }
-
 }
-
-
